@@ -27,6 +27,9 @@ int main()
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
 
+    std::cout << "Szia Bálint kíirom hogy: " << std::endl << "Valami" << std::endl;
+
+
     delete[] b; // Memoria felszabaditva
     return 0;
 }
